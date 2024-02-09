@@ -1,0 +1,64 @@
+.ac-u-text__body {
+  font-family: Roboto, Karla, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: var(--ac-u-color__neutral--dark-2);
+
+  @media screen and (max-width: 481px) {
+    font-size: 1.8rem;
+  }
+}
+
+.ac-u-text__body--strong {
+  @extend .ac-u-text__body;
+  font-weight: 700;
+}
+
+.ac-u-text__body--hyperlink {
+  @extend .ac-u-text__body;
+  text-decoration: underline;
+}
+
+.ac-u-text__body--strong--hyperlink {
+  @extend .ac-u-text__body--strong;
+  @extend .ac-u-text__body--hyperlink;
+}
+
+.ac-u-text__body--small {
+  @extend .ac-u-text__body;
+  font-size: 1.6rem;
+}
+
+.ac-u-text__body--small--strong {
+  @extend .ac-u-text__body--small;
+  font-weight: 700;
+}
+
+.ac-u-text__body--small--hyperlink {
+  @extend .ac-u-text__body--small;
+  text-decoration: underline;
+}
+
+.ac-u-text__body--small--strong--hyperlink {
+  @extend .ac-u-text__body--small--strong;
+  @extend .ac-u-text__body--small--hyperlink;
+}
+
+.ac-u-text__body--micro {
+  @extend .ac-u-text__body;
+  font-size: 1.4rem;
+}
+
+.ac-u-text__body--micro--strong {
+  @extend .ac-u-text__body--micro;
+  font-weight: 700;
+}
+
+.ac-u-text__body--micro--hyperlink {
+  @extend .ac-u-text__body--micro;
+  text-decoration: underline;
+}
+
+.ac-u-text__body--micro--strong--hyperlink {
+  @extend .ac-u-text__body--micro--strong;
+  @extend .ac-u-text__body--micro--hyperlink;
+}

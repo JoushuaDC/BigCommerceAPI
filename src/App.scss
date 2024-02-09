@@ -1,0 +1,52 @@
+:root {
+  font-size: 62.5%;
+}
+
+:root {
+  --ac-l-spacing__scale--6x: 160px;
+  --ac-l-spacing__scale--5x: 120px;
+  --ac-l-spacing__scale--4x: 96px;
+  --ac-l-spacing__scale--3x: 72px;
+  --ac-l-spacing__scale--2x: 60px;
+  --ac-l-spacing__scale--1x: 48px;
+  --ac-l-spacing__scale--xxl: 40px;
+  --ac-l-spacing__scale--xl: 32px;
+  --ac-l-spacing__scale--large: 24px;
+  --ac-l-spacing__scale--medium: 20px;
+  --ac-l-spacing__scale--small: 16px;
+  --ac-l-spacing__scale--xs: 12px;
+  --ac-l-spacing__scale--xxs: 8px;
+}
+
+:root {
+  --ac-u-color__primary--default: #cd471f;
+  --ac-u-color__primary--light: #ec5123;
+  --ac-u-color__secondary--default: #027d61;
+  --ac-u-color__secondary--dark: #013b30;
+  --ac-u-color__secondary--mid-1: #57ae98;
+  --ac-u-color__secondary--mid-2: #a7d5ca;
+  --ac-u-color__secondary--light-1: #cfe5df;
+  --ac-u-color__secondary--light-2: #e5f2ef;
+  --ac-u-color__secondary--light-3: #f2f6f5;
+  --ac-u-color__tertiary--default: #063969;
+  --ac-u-color__tertiary--dark: #022341;
+  --ac-u-color__tertiary--light: #2d669c;
+  --ac-u-color__tertiary--light-2: #95d2e1;
+  --ac-u-color__neutral--light-1: #e5e5e5;
+  --ac-u-color__neutral--light-2: #cccccc;
+  --ac-u-color__neutral--mid: #6a6b6e;
+  --ac-u-color__neutral--dark-1: #444444;
+  --ac-u-color__neutral--dark-2: #222222;
+  --ac-u-color__neutral--black: #000000;
+  --ac-u-color__neutral--white: #ffffff;
+  --ac-u-color__neutral--overlay: rgba(0, 0, 0, 0.5);
+  --ac-u-color__messaging--success: #008b1f;
+  --ac-u-color__messaging--alert: #ffa426;
+  --ac-u-color__messaging--error: #d14343;
+  --ac-u-color__messaging--focus: #4496f6;
+}
+
+@import "styles/variables.scss";
+@import "styles/layout.scss";
+@import "styles/body_typography.scss";
+@import "styles/heading_typography.scss";

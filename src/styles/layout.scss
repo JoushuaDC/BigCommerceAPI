@@ -1,0 +1,11 @@
+.container {
+  @media screen and (max-width: 1024px) {
+    padding: var(--ac-l-spacing__scale--xxl);
+  }
+  @media screen and (max-width: 481px) {
+    padding: var(--ac-l-spacing__scale--medium);
+  }
+  @media screen and (min-width: 1024px) {
+    padding: var(--ac-l-spacing__scale--2x);
+  }
+}
